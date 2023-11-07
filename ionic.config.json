@@ -1,0 +1,7 @@
+{
+  "name": "capBug",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
