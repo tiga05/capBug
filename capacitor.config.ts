@@ -6,6 +6,16 @@ const config: CapacitorConfig = {
   webDir: 'www',
   server: {
     androidScheme: 'https'
+  },
+  android: {
+    buildOptions: {
+      keystoreAlias: 'key0',
+      keystoreAliasPassword: 'key0PW',
+      keystorePath: '../SingleKey.jks',
+      keystorePassword: 'keyStorePW',
+      releaseType: 'APK',
+      signingType: 'apksigner'
+    }
   }
 };
 
